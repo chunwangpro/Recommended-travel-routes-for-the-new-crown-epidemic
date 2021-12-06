@@ -34,7 +34,9 @@ python manage.py migrate
 ```
 
 如果第一次运行：
+
 请先删除`duma/ncov/migrations/`下的文件
+
 进入本地`mysql`数据库，并执行：
 
 ```
