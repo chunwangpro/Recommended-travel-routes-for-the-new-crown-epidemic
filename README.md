@@ -40,7 +40,7 @@ python manage.py migrate
 - 进入本地`mysql`数据库，直接粘贴`duma/ncov/sql/insert-data.sql`中的语句，或者执行：
 
 ```
-source duma/ncov/sql/insert-data.sql
+source /path/to/duma/ncov/sql/insert-data.sql
 ```
 
 在`Terminal`中继续执行：
