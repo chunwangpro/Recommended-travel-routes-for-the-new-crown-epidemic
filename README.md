@@ -37,13 +37,11 @@ python manage.py migrate
 
 - 请先删除`duma/ncov/migrations/`下的文件
 
-- 进入本地`mysql`数据库，并执行：
+- 进入本地`mysql`数据库，直接粘贴`duma/ncov/sql/insert-data.sql`中的语句，或者执行：
 
 ```
 source duma/ncov/sql/insert-data.sql
 ```
-
-- 或直接粘贴`duma/ncov/sql/insert-data.sql`中的语句
 
 在`Terminal`中继续执行：
 
