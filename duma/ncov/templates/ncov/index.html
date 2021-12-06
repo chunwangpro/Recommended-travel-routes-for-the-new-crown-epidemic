@@ -1,0 +1,16 @@
+<h3>国内疫情数据</h3>
+
+<table border="1">
+    <tr>
+        <td>日期</td>
+        <td>现有确诊</td>
+        <td>新增确诊</td>
+    </tr>
+    {% for stat in cy_stats %}
+    <tr>
+        <td> {{ stat.stat_dt }} </td>
+        <td> {{ stat.today_confirm }} </td>
+        <td> {{ stat.today_new_confirm }} </td>
+    </tr>
+    {% endfor %}
+</table>
